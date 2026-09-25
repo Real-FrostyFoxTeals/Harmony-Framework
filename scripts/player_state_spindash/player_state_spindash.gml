@@ -29,7 +29,7 @@ function player_state_spindash(){
 	if(press_action)
 	{
 		//Play spindash sound
-		sound_play(sfx_spindash);
+		sound_play(sfx_charge);
 		
 		//Reset the spindash frame
 		if(animation_is_playing(animator, ANIM.SPINDASH))
@@ -44,7 +44,7 @@ function player_state_spindash(){
 		//Change the spindash sound pitch
 		if(spindash_pitch != 1) 
 		{
-			audio_sound_pitch(sfx_spindash, 1 + spindash_pitch / 13);
+			audio_sound_pitch(sfx_charge, 1 + spindash_pitch / 13);
 		}
 	}
 	
@@ -52,7 +52,7 @@ function player_state_spindash(){
 	if(!hold_down)
 	{
 		//Stop the spindash sound
-		audio_stop_sound(sfx_spindash);
+		audio_stop_sound(sfx_charge);
 		
 		//Play the release sound
 		sound_play(sfx_release);

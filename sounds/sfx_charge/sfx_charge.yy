@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_superring",
+  "%Name":"sfx_charge",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,17 +10,17 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.618027,
+  "duration":1.8333787,
   "exportDir":"",
-  "name":"sfx_superring",
+  "name":"sfx_charge",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sounds/Sound Effects/Objects.yy",
+    "name":"Player",
+    "path":"folders/Sounds/Sound Effects/Player.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_superring.wav",
+  "soundFile":"sfx_charge.wav",
   "volume":1.0,
 }

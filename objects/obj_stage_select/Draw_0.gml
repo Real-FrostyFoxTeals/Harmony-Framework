@@ -32,7 +32,7 @@
 		//Do the selection
 		if(i == zone_sel)
 		{
-			effect_set_palette(tex_pal_textselect1, 1);
+			effect_set_palette(tex_pal_textselect, 1);
 		}
 		var i_offset = i-(zone_sel-min(zone_sel, 8))
 		//Draw zones
@@ -49,7 +49,7 @@
 			//Do the selection
 			if(i == zone_sel && j_offset == act_sel)
 			{
-				effect_set_palette(tex_pal_textselect1, 1);
+				effect_set_palette(tex_pal_textselect, 1);
 			}else
 			{
 				shader_reset();
@@ -61,7 +61,7 @@
 	}
 	
 	//Draw sound test
-	if(zone_sel == zone_arr) effect_set_palette(tex_pal_textselect1, 1);
+	if(zone_sel == zone_arr) effect_set_palette(tex_pal_textselect, 1);
 	draw_text((global.window_width / 2)-128, (global.window_height/2) + 64+24, "SOUND TEST: ");
 	draw_text((global.window_width / 2)+ 96-16, (global.window_height/2) +64+24, (sound_sel > 9 ? "" : "0") + string(sound_sel));
 	shader_reset();

@@ -1,6 +1,6 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_spindash",
+  "%Name":"sfx_hurt_spike",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
@@ -10,9 +10,9 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.8333787,
+  "duration":0.7016553,
   "exportDir":"",
-  "name":"sfx_spindash",
+  "name":"sfx_hurt_spike",
   "parent":{
     "name":"Player",
     "path":"folders/Sounds/Sound Effects/Player.yy",
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_spindash.wav",
+  "soundFile":"sfx_hurt_spike.wav",
   "volume":1.0,
 }

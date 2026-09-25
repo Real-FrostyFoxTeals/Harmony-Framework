@@ -11,8 +11,8 @@
   "name":"obj_badnik_ribbot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Arboreal Agate",
-    "path":"folders/Objects/Stage Objects/Arboreal Agate.yy",
+    "name":"Enemies",
+    "path":"folders/Objects/Stage Objects/Arboreal Agate/Enemies.yy",
   },
   "parentObjectId":{
     "name":"par_badnik",

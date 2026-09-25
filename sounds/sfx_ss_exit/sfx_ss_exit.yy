@@ -1,26 +1,31 @@
 {
   "$GMSound":"v2",
-  "%Name":"sfx_red_ring_all",
+  "%Name":"sfx_ss_exit",
   "audioGroupId":{
     "name":"audiogroup_default",
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":1,
   "compressionQuality":4,
+  "ConfigValues":{
+    "Dev":{
+      "audioGroupId":"{ \"name\":\"audiogroup_default\", \"path\":\"audiogroups/audiogroup_default\" }",
+    },
+  },
   "conversionMode":0,
-  "duration":1.4181179,
+  "duration":1.8193424,
   "exportDir":"",
-  "name":"sfx_red_ring_all",
+  "name":"sfx_ss_exit",
   "parent":{
-    "name":"Objects",
-    "path":"folders/Sounds/Sound Effects/Objects.yy",
+    "name":"Special",
+    "path":"folders/Sounds/Sound Effects/Special.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"sfx_red_ring_all.wav",
+  "soundFile":"sfx_ss_exit.wav",
   "volume":1.0,
 }
